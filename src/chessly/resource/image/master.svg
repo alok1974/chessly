@@ -17,7 +17,7 @@
    inkscape:version="1.0beta2 (2b71d25, 2019-12-03)"
    sodipodi:docname="master.svg"
    shape-rendering="crispEdges"
-   inkscape:export-filename="/Users/alok/dev/github/pypassant/src/pypassant/resource/image/btn_threat.png"
+   inkscape:export-filename="/Users/alok/dev/github/chessly/src/chessly/resource/image/btn_threat.png"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96">
   <style
@@ -2450,7 +2450,7 @@
          y="239.15982"
          height="40" />
       <path
-         inkscape:export-filename="/Users/alok/dev/github/pypassant/src/pypassant/resource/pawn_small_b.png"
+         inkscape:export-filename="/Users/alok/dev/github/chessly/src/chessly/resource/pawn_small_b.png"
          id="path2380"
          style="fill:#292929;fill-opacity:1;fill-rule:nonzero;stroke:#e5e5e5;stroke-width:0.519265;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke;stop-color:#000000"
          d="m 147.29513,251.54486 a 2.3066638,2.2890215 0 0 0 -2.30677,2.28902 2.3066638,2.2890215 0 0 0 0.41991,1.31695 5.1034575,4.9878715 0 0 0 -3.21665,4.63434 5.1034575,4.9878715 0 0 0 1.06113,3.04466 10.24041,10.008479 0 0 0 -6.19809,9.19134 l 20.48074,0.005 a 10.24041,10.008479 0 0 0 -6.1979,-9.19552 5.1034575,4.9878715 0 0 0 1.06096,-3.04465 5.1034575,4.9878715 0 0 0 -3.21667,-4.63453 2.3066638,2.2890215 0 0 0 0.41993,-1.31677 2.3066638,2.2890215 0 0 0 -2.30659,-2.28901 z"
@@ -3327,7 +3327,7 @@
          ry="1.2113073" />
     </g>
     <g
-       inkscape:export-filename="/Users/alok/dev/github/pypassant/src/pypassant/resource/queen_small.png"
+       inkscape:export-filename="/Users/alok/dev/github/chessly/src/chessly/resource/queen_small.png"
        transform="matrix(0.63301755,0,0,0.59158805,291.96088,158.81826)"
        id="g1460"
        inkscape:export-xdpi="48.000122"
@@ -3352,7 +3352,7 @@
          sodipodi:nodetypes="cc" />
     </g>
     <path
-       inkscape:export-filename="/Users/alok/dev/github/pypassant/src/pypassant/resource/pawn_small.png"
+       inkscape:export-filename="/Users/alok/dev/github/chessly/src/chessly/resource/pawn_small.png"
        inkscape:export-ydpi="96"
        inkscape:export-xdpi="96"
        id="path1518"
@@ -3366,7 +3366,7 @@
        id="path1084"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"
-       inkscape:export-filename="/Users/alok/dev/github/pypassant/src/pypassant/resource/pawn_small.png" />
+       inkscape:export-filename="/Users/alok/dev/github/chessly/src/chessly/resource/pawn_small.png" />
     <g
        inkscape:export-ydpi="48"
        inkscape:export-xdpi="48"
@@ -3419,7 +3419,7 @@
          style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.409612;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000" />
     </g>
     <path
-       inkscape:export-filename="/Users/alok/dev/github/pypassant/src/pypassant/resource/pawn_small.png"
+       inkscape:export-filename="/Users/alok/dev/github/chessly/src/chessly/resource/pawn_small.png"
        inkscape:export-ydpi="96"
        inkscape:export-xdpi="96"
        id="path1122"
@@ -3433,9 +3433,9 @@
        id="path1124"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"
-       inkscape:export-filename="/Users/alok/dev/github/pypassant/src/pypassant/resource/pawn_small.png" />
+       inkscape:export-filename="/Users/alok/dev/github/chessly/src/chessly/resource/pawn_small.png" />
     <path
-       inkscape:export-filename="/Users/alok/dev/github/pypassant/src/pypassant/resource/pawn_small.png"
+       inkscape:export-filename="/Users/alok/dev/github/chessly/src/chessly/resource/pawn_small.png"
        inkscape:export-ydpi="96"
        inkscape:export-xdpi="96"
        id="path1126"
@@ -3449,9 +3449,9 @@
        id="path1128"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"
-       inkscape:export-filename="/Users/alok/dev/github/pypassant/src/pypassant/resource/pawn_small.png" />
+       inkscape:export-filename="/Users/alok/dev/github/chessly/src/chessly/resource/pawn_small.png" />
     <path
-       inkscape:export-filename="/Users/alok/dev/github/pypassant/src/pypassant/resource/pawn_small.png"
+       inkscape:export-filename="/Users/alok/dev/github/chessly/src/chessly/resource/pawn_small.png"
        inkscape:export-ydpi="96"
        inkscape:export-xdpi="96"
        id="path1130"
@@ -3465,7 +3465,7 @@
        id="path1132"
        inkscape:export-xdpi="47.999722"
        inkscape:export-ydpi="47.999722"
-       inkscape:export-filename="/Users/alok/dev/github/pypassant/src/pypassant/resource/pawn_small.png" />
+       inkscape:export-filename="/Users/alok/dev/github/chessly/src/chessly/resource/pawn_small.png" />
     <g
        inkscape:export-ydpi="48"
        inkscape:export-xdpi="48"
@@ -3495,7 +3495,7 @@
        inkscape:export-xdpi="48.000122"
        id="g1148"
        transform="matrix(0.66075125,0,0,0.6338046,361.70545,141.51652)"
-       inkscape:export-filename="/Users/alok/dev/github/pypassant/src/pypassant/resource/rook_small.png">
+       inkscape:export-filename="/Users/alok/dev/github/chessly/src/chessly/resource/rook_small.png">
       <path
          sodipodi:nodetypes="ccccccccccccccccccccccccc"
          inkscape:connector-curvature="0"
@@ -4557,7 +4557,7 @@
          y="803.28253"
          x="17.25428"
          id="tspan2227"
-         sodipodi:role="line">pyPassant</tspan></text>
+         sodipodi:role="line">chessly</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:130.667px;line-height:1.25;font-family:'Avenir Next';-inkscape-font-specification:'Avenir Next Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;fill:#000000;fill-opacity:1;stroke:none"
@@ -7229,7 +7229,7 @@
          id="path1847"
          inkscape:export-xdpi="47.999722"
          inkscape:export-ydpi="47.999722"
-         inkscape:export-filename="/Users/alok/dev/github/pypassant/src/pypassant/resource/pawn_small.png" />
+         inkscape:export-filename="/Users/alok/dev/github/chessly/src/chessly/resource/pawn_small.png" />
       <rect
          style="fill:none;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
          id="rect1847"
@@ -7243,7 +7243,7 @@
        inkscape:export-xdpi="96"
        id="g4193">
       <path
-         inkscape:export-filename="/Users/alok/dev/github/pypassant/src/pypassant/resource/pawn_small.png"
+         inkscape:export-filename="/Users/alok/dev/github/chessly/src/chessly/resource/pawn_small.png"
          inkscape:export-ydpi="47.999722"
          inkscape:export-xdpi="47.999722"
          id="path1873"
@@ -7470,7 +7470,7 @@
          y="251.99283" />
     </g>
     <g
-       inkscape:export-filename="/Users/alok/dev/github/pypassant/src/pypassant/resource/imagebtn_option_a.png"
+       inkscape:export-filename="/Users/alok/dev/github/chessly/src/chessly/resource/imagebtn_option_a.png"
        id="g2200"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96">
@@ -7658,7 +7658,7 @@
          y="292.92773" />
     </g>
     <g
-       inkscape:export-filename="/Users/alok/dev/github/pypassant/src/pypassant/resource/btn_pause_a.png"
+       inkscape:export-filename="/Users/alok/dev/github/chessly/src/chessly/resource/btn_pause_a.png"
        id="g2540"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96">
@@ -7699,7 +7699,7 @@
       </g>
     </g>
     <g
-       inkscape:export-filename="/Users/alok/dev/github/pypassant/src/pypassant/resource/btn_pause.png"
+       inkscape:export-filename="/Users/alok/dev/github/chessly/src/chessly/resource/btn_pause.png"
        id="g2533"
        transform="translate(-48.594114,-54.095335)"
        inkscape:export-xdpi="96"
