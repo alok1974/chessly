@@ -45,6 +45,7 @@ class BoardImageLabel(QtWidgets.QLabel):
         self._pychess_pixmap = QtGui.QPixmap(
             c.IMAGE.CHESSLY_IMAGE_FILE_PATH,
         )
+
         self.setPixmap(pixmap)
         self.setSizePolicy(
             QtWidgets.QSizePolicy.MinimumExpanding,
@@ -84,12 +85,9 @@ class BoardImageLabel(QtWidgets.QLabel):
         self._init_height = self.sizeHint().height()
 
     def resizeEvent(self, event):
-        self._scale = (
-            (
-                (self.size().width() / self._init_width) +
-                (self.size().height() / self._init_height)
-            ) / 2
-        ) ** 2
+        self._x_scale = self.size().width() / self._init_width
+        self._y_scale = self.size().height() / self._init_height
+        self._scale = ((self._x_scale + self._y_scale) / 2) ** 2
 
     def setPixmap(self, pixmap):
         self.pixmap = pixmap
@@ -137,6 +135,12 @@ class BoardImageLabel(QtWidgets.QLabel):
 
         self._init_width = self.sizeHint().width()
         self._init_height = self.sizeHint().height()
+
+        self._init_logo_width = self._pychess_pixmap.width()
+        self._init_logo_height = self._pychess_pixmap.height()
+
+        self._x_scale = self._init_width / self._init_width
+        self._y_scale = self._init_height / self._init_height
 
         self._scale = ((self._init_width + self._init_height) / 2) ** 2
 
@@ -423,10 +427,30 @@ class BoardImageLabel(QtWidgets.QLabel):
         self._current_band = self._get_band(band_no=self._current_band_no)
 
     def _draw_logo(self, size, painter):
+        logo_width = self._x_scale * self._init_logo_width
+        logo_height = self._y_scale * self._init_logo_height
+
         center = QtCore.QPoint(0, 0)
-        center.setX((size.width() - self._pychess_pixmap.width()) / 2)
-        center.setY((size.height() - self._pychess_pixmap.height()) / 2)
-        painter.drawPixmap(center, self._pychess_pixmap)
+        center.setX((size.width() - logo_width) / 2)
+        center.setY((size.height() - logo_height) / 2)
+        # painter.drawPixmap(center, self._pychess_pixmap)
+
+        logo_size = QtCore.QSize(logo_width, logo_height)
+
+        point = QtCore.QPoint(0, 0)
+        scaled_pixmap = self._pychess_pixmap.scaled(
+            logo_size,
+            QtCore.Qt.KeepAspectRatio,
+            transformMode=QtCore.Qt.SmoothTransformation,
+        )
+
+        point.setX((size.width() - scaled_pixmap.width()) / 2)
+        point.setY((size.height() - scaled_pixmap.height()) / 2)
+
+        painter.setRenderHint(QtGui.QPainter.TextAntialiasing)
+        painter.setRenderHint(QtGui.QPainter.SmoothPixmapTransform)
+        painter.setRenderHint(QtGui.QPainter.HighQualityAntialiasing)
+        painter.drawPixmap(point, scaled_pixmap)
 
 
 class SmoothImageLabel(QtWidgets.QLabel):
