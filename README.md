@@ -2,11 +2,11 @@
 
 The game of Chess in python
 
-![Demo](chessly.gif)
+![chessly.gif](chessly.gif)
 
 ## Demo
 
-[![Demo](demo.gif)](https://youtu.be/sE_knceX_E4)
+[![demo.gif](demo.gif)](https://youtu.be/sE_knceX_E4)
 
 ## Installation
 
