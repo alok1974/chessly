@@ -102,6 +102,12 @@ class MainWidget(QtWidgets.QDialog):
 
         self._reset()
 
+    def _move_to_center(self):
+        geom = self.frameGeometry()
+        center = QtWidgets.QDesktopWidget().availableGeometry().center()
+        geom.moveCenter(center)
+        self.move(geom.topLeft())
+
     def _reset(self):
         self.GAME_RESET_SIGNAL.emit()
 
@@ -966,6 +972,7 @@ class MainWidget(QtWidgets.QDialog):
         self._right_widget.adjustSize()
         self.adjustSize()
         self.adjustPosition(self)
+        self._move_to_center()
 
     def _toggle_adress(self):
         if self._is_paused:
