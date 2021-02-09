@@ -4,10 +4,6 @@ The game of Chess in python
 
 ![chessly.gif](chessly.gif)
 
-## Demo
-
-[![demo.gif](demo.gif)](https://youtu.be/sE_knceX_E4)
-
 ## Installation
 
 You can use one of the following two options
