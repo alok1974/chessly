@@ -751,12 +751,15 @@ class MainWidget(QtWidgets.QDialog):
         self._set_players_and_start()
 
     def _set_players_and_start(self):
-        w = ChoosePlayerWidget(parent=self)
-        w.CHOSEN_COLOR_SIGNAL.connect(
-            lambda color: self._start_new_game(engine_color=color)
-        )
-        w.HUMAN_VS_HUMAN_SIGNAL.connect(self._start_new_game)
-        w.show()
+        if not self._engine.engine_exists:
+            self._start_new_game()
+        else:
+            w = ChoosePlayerWidget(parent=self)
+            w.CHOSEN_COLOR_SIGNAL.connect(
+                lambda color: self._start_new_game(engine_color=color)
+            )
+            w.HUMAN_VS_HUMAN_SIGNAL.connect(self._start_new_game)
+            w.show()
 
     def _open_options(self):
         if self._has_game_started or self._board_widget.game_loaded:
